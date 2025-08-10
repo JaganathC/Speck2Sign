@@ -1,34 +1,52 @@
-# SignBridge: Real-Time Voice-to-Sign Translator
+# ✨ Speak2Sign: Real-Time Voice-to-Sign Translator
 
-## Project Overview
+## 🌍 Project Overview
 
-**SignBridge** is a cross-platform Edge AI application that translates spoken English into animated SignWriting in real time. Designed for accessibility and inclusivity, SignBridge empowers Deaf and hard-of-hearing users to access spoken content—live or recorded—on any device, fully offline or with optional online enhancements.
+**Speak2Sign** is a **next-generation, cross-platform Edge AI application** that instantly translates **spoken English** into **animated SignWriting** 👐—**in real time**.
 
-- **Track:** Edge AI Consumer Utility Application (Snapdragon® X Elite)
-- **Core Value:** Everyday utility for a broad audience, enabling real-time voice-to-sign translation on-device.
-- **Edge AI:** All core AI runs locally (Whisper, PyTorch SignWriting Model, etc.), with optional cloud-based text simplification (Groq + LLaMA).
-- **Cross-Platform:** Runs on Windows, macOS, Linux, and Snapdragon X Elite devices as a web or native desktop app (Tauri).
+Built with a mission of **accessibility** 🤝 and **inclusivity**, Speak2Sign empowers **Deaf** and **hard-of-hearing** communities to access **spoken content**—whether it’s **live conversations, online meetings, lectures, or recorded videos**—**on any device**, completely **offline** ⚡ or with optional **online enhancements**.
 
 ---
 
-## Key Features
+### 📌 Track
+**Edge AI Consumer Utility Application** *(Snapdragon® X Elite)*
 
-- **Speech-to-Text (Offline):**
-  - Uses Whisper for fast, accurate, on-device transcription.
-- **Optional Text Simplification (Online):**
-  - Toggle to simplify complex sentences using Groq API + LLaMA models (for easier sign translation).
-- **Text-to-SignWriting Translation(Offline):**
-  - Converts English text to SignWriting notation using a Sign Writing model (runs locally).
-- **SignWriting Rendering & Animation(Hybrid):**
-  - Displays animated SignWriting using open web standards and custom components.
-- **System & Mic Audio Input(Offline + Enhanced Foe Each Device):**
-  - Capture from microphone and system audio for real-time translation of meetings, videos, etc.
-- **Save & Export:**
-  - Download SignWriting as SVG image.
-- **Modern UI:**
-  - Responsive, accessible, and themeable (light/dark mode).
+### 💡 Core Value
+Everyday, practical utility for a wide audience—enabling **real-time, on-device** voice-to-sign translation without internet dependency.
+
+### 🧠 Edge AI Power
+Runs all AI models **locally**—**Whisper** for transcription, **PyTorch SignWriting Model** for translation—with optional **Groq + LLaMA** cloud text simplification.
+
+### 💻 Cross-Platform
+Seamlessly works on **Windows**, **macOS**, **Linux**, and **Snapdragon X Elite**—available as a **web app** 🌐 or **native desktop app** 🖥️ (via Tauri).
 
 ---
+
+## 🚀 Key Features
+
+- 🎙 **Speech-to-Text (Offline)**  
+  Ultra-fast, accurate transcription using **Whisper**, fully on-device.
+
+- ✂ **Optional Text Simplification (Online)**  
+  Toggle to simplify complex phrases with **Groq API + LLaMA** for smoother sign translation.
+
+- 📝 **Text-to-SignWriting Translation (Offline)**  
+  Converts English text into **SignWriting notation** using our custom AI model.
+
+- 🎞 **SignWriting Rendering & Animation (Hybrid)**  
+  Displays **beautiful, animated SignWriting** via open web standards + custom components.
+
+- 🔊 **System & Mic Audio Input**  
+  Capture **microphone** and **system audio** for translating **meetings, webinars, and videos** in real time.
+
+- 💾 **Save & Export**  
+  Download **SignWriting output** as **SVG** for archiving or sharing.
+
+- 🎨 **Modern, Accessible UI**  
+  Responsive, themeable (light/dark mode) with **accessibility-first design**.
+
+---
+
 
 ## Quick Start Guide
 
